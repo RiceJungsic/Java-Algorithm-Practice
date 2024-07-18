@@ -1,4 +1,5 @@
 import programmers.level_0.Babbling;
+import programmers.level_0.CurseNumberThree;
 import programmers.level_0.FindCompositeNumber;
 
 public class Main {
@@ -9,5 +10,8 @@ public class Main {
 
         Babbling babbling = new Babbling();
         babbling.babbling();
+
+        CurseNumberThree curseNumberThree = new CurseNumberThree();
+        curseNumberThree.CurseNumberThree(15);
     }
 }
